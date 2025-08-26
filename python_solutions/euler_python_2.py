@@ -18,10 +18,10 @@ def euler_2(n):
     
     # While the first term is less than the limit n...
     while a < n:
-        # Add it to the total if it is even
+        # Add it to the total if it is even.
         if a % 2 == 0:
             total += a
-        # Update a and b according to the Fibonacci sequence
+        # Update a and b according to the Fibonacci sequence.
         a, b = b, a + b
 
     return total
